@@ -150,7 +150,7 @@ const Index: React.FC = () => {
                     <div className="text-2xl font-bold text-accentBlue mt-1">{results.length}</div>
                   </div>
                   <div className="p-3 bg-secondary rounded-md">
-                    <div className="font-medium">Kemiripan Tinggi (>50%)</div>
+                  <div className="font-medium">{"Kemiripan Tinggi (>50%)"}</div>
                     <div className="text-2xl font-bold text-dangerRed mt-1">
                       {results.filter(r => r.similarity > 50).length}
                     </div>
